@@ -7,6 +7,7 @@ on:
     types:
       - completed
   workflow_dispatch:
+
 jobs:
   deploy:
     runs-on: windows-latest
@@ -18,7 +19,7 @@ jobs:
           name: packed-solution
       - uses: microsoft/powerplatform-actions/import-solution@v0
         with:
-          environment-url: org3cc0eca3.crm5.dynamics.com
+          environment-url: orgc53dc808.crm5.dynamics.com
           user-name: ${{ secrets.USERNAME }}
           password-secret: ${{ secrets.PASSWORD }}
           solution-file: contoso_university_core_managed.zip
