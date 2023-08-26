@@ -33,7 +33,7 @@ permissions:
 
 jobs:
   export-from-dev:
-    runs-on: ubuntu-18.04
+    runs-on: windows-2019
     environment: production
     steps:
     - uses: actions/checkout@v2
