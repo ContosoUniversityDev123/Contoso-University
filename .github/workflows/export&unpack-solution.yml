@@ -27,7 +27,6 @@ on:
 env:
 #edit your values here
   ENVIRONMENT_URL: https://orgc53dc808.crm5.dynamics.com/
-  USERNAME: reuel@Maker337.onmicrosoft.com
 
 permissions:
   contents: write
