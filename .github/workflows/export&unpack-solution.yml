@@ -47,8 +47,8 @@ jobs:
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
         environment-url: ${{env.ENVIRONMENT_URL}}
-        user-name: ${{env.USERNAME}}
-        password-secret: ${{ secrets.password }}
+        user-name: ${{secrets.USERNAME}}
+        password-secret: ${{ secrets.PASSWORD }}
 
     - name: export-solution action
       uses: microsoft/powerplatform-actions/export-solution@v0
