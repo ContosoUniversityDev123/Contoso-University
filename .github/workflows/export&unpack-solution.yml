@@ -36,9 +36,6 @@ jobs:
   export-from-dev:
     runs-on: windows-latest
     environment: production
-    env:
-      RUNNER_DEBUG: 1
-
     steps:
     - uses: actions/checkout@v2
       with:
