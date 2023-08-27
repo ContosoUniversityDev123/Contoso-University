@@ -7,4 +7,4 @@ This is where we store Power platform repositories.
 - University enrollment app
 - My courses app
 - Coming soon
-- New updates 1
+- New updates 1g
